@@ -9,7 +9,7 @@ def search_movies():
     query = request.args.get('query')
 
     # Your TMDb API key
-    api_key = '54b5e51e75278733de93dc7d850f80ef'  # Replace 'YOUR_TMDB_API_KEY' with your actual TMDb API key
+    api_key = '54b5e51e75278733de93dc7d850f80ef'
 
     # Make a request to TMDb API
     url = f'https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={query}'
